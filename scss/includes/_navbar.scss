@@ -1,0 +1,21 @@
+.navbar {
+  @include media-breakpoint-down(sm) {
+    .navbar-brand,
+    .nav-item {
+      float: none;
+    }
+    .nav-item + .nav-item {
+      margin-left: 0;
+    }    
+    .dropdown {
+      position: initial;
+    }  
+    .dropdown-menu {
+      position: initial;
+      z-index: initial;
+      float: initial;
+      border: initial;
+      border-radius: initial;  
+    }
+  }
+}

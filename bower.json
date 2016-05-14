@@ -1,0 +1,23 @@
+{
+  "name": "responsive-navbar-dropdowns",
+  "version": "0.0.1",
+  "authors": [
+     "Bass Jobsen <bass@w3masters.nl> (http://bassjobsen.weblogs.fm)"
+  ],
+  "description": "Responsive Bootstrap 4 navbar with dropdown menus example. Powered by Panini, Sass and Gulp.",
+  "main": "_site/index.html",
+  "license": "MIT",
+  "homepage": "https://github.com/bassjobsen/responsive-navbar-dropdowns/",
+  "dependencies": {
+    "bootstrap": "4",
+    "tether": "^1.1.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_site",
+    "test",
+    "tests"
+  ]
+}
